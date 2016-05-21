@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.authors = ["Michael van Rooijen"]
   spec.email = ["michael@vanrooijen.io"]
   spec.summary = %q{A micro library that compliments has_secure_password by providing has_email_authentication.}
-  spec.homepage = "http://meskyanichi.github.io/has_email_authentication/"
+  spec.homepage = "http://mrrooijen.github.io/has_email_authentication/"
   spec.license = "MIT"
 
   spec.files = `git ls-files -z`.split("\x0")

@@ -1,8 +1,8 @@
 # Has Email Authentication
 
 [![Gem Version](https://badge.fury.io/rb/has_email_authentication.svg)](http://badge.fury.io/rb/has_email_authentication)
-[![Code Climate](https://codeclimate.com/github/meskyanichi/has_email_authentication.png)](https://codeclimate.com/github/meskyanichi/has_email_authentication)
-[![Build Status](https://travis-ci.org/meskyanichi/has_email_authentication.svg)](https://travis-ci.org/meskyanichi/has_email_authentication)
+[![Code Climate](https://codeclimate.com/github/mrrooijen/has_email_authentication.png)](https://codeclimate.com/github/mrrooijen/has_email_authentication)
+[![Build Status](https://travis-ci.org/mrrooijen/has_email_authentication.svg)](https://travis-ci.org/mrrooijen/has_email_authentication)
 
 HasEmailAuthentication, for Rails/ActiveRecord 4.0.0+, is a micro library that compliments `has_secure_password` by providing `has_email_authentication`.
 
@@ -94,13 +94,13 @@ Submit a pull request.
 
 ### Author / License
 
-Copyright (c) 2014 Michael van Rooijen ( [@meskyanichi] )<br />
+Copyright (c) 2014 Michael van Rooijen ( [@mrrooijen] )<br />
 Released under the MIT [License].
 
-[@meskyanichi]: https://twitter.com/meskyanichi
+[@mrrooijen]: https://twitter.com/mrrooijen
 [HireFire]: http://hirefire.io
-[Passing Specs]: https://travis-ci.org/meskyanichi/has_email_authentication
-[Code Climate Score]: https://codeclimate.com/github/meskyanichi/has_email_authentication
-[RubyDoc]: http://rubydoc.info/github/meskyanichi/has_email_authentication/master/frames
-[License]: https://github.com/meskyanichi/has_email_authentication/blob/master/LICENSE
+[Passing Specs]: https://travis-ci.org/mrrooijen/has_email_authentication
+[Code Climate Score]: https://codeclimate.com/github/mrrooijen/has_email_authentication
+[RubyDoc]: http://rubydoc.info/github/mrrooijen/has_email_authentication/master/frames
+[License]: https://github.com/mrrooijen/has_email_authentication/blob/master/LICENSE
 [RubyGems.org]: https://rubygems.org/gems/has_email_authentication
