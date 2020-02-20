@@ -2,7 +2,7 @@
 
 [![Gem Version](https://badge.fury.io/rb/has_email_authentication.svg)](http://badge.fury.io/rb/has_email_authentication)
 [![Code Climate](https://codeclimate.com/github/mrrooijen/has_email_authentication.png)](https://codeclimate.com/github/mrrooijen/has_email_authentication)
-[![Build Status](https://travis-ci.org/mrrooijen/has_email_authentication.svg)](https://travis-ci.org/mrrooijen/has_email_authentication)
+[![Test Status](https://github.com/mrrooijen/has_email_authentication/workflows/Test/badge.svg)](https://github.com/mrrooijen/has_email_authentication/actions?query=workflow%3ATest)
 
 HasEmailAuthentication, for Rails/ActiveRecord 5.0+, is a micro library that compliments `has_secure_password` by providing `has_email_authentication`.
 
