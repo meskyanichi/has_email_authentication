@@ -96,7 +96,7 @@ Copyright (c) Michael van Rooijen ( [@mrrooijen] )<br />
 Released under the MIT [License].
 
 [@mrrooijen]: https://twitter.com/mrrooijen
-[HireFire]: http://hirefire.io
+[HireFire]: https://www.hirefire.io
 [Passing Specs]: https://travis-ci.org/mrrooijen/has_email_authentication
 [Code Climate Score]: https://codeclimate.com/github/mrrooijen/has_email_authentication
 [RubyDoc]: http://rubydoc.info/github/mrrooijen/has_email_authentication/master/frames
