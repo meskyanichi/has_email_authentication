@@ -1,8 +1,9 @@
 ActiveRecord::Base.establish_connection(
-  adapter: "sqlite3", database: ":memory:"
+  :adapter  => "sqlite3",
+  :database => ":memory:",
 )
 
-class Schema < ActiveRecord::Migration
+class Schema < ActiveRecord::Migration[5.0]
 
   def change
     create_table :users do |t|
@@ -11,6 +12,4 @@ class Schema < ActiveRecord::Migration
   end
 end
 
-silence_stream(STDOUT) do
-  Schema.new.change
-end
+Schema.new.change
