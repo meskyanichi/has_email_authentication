@@ -9,6 +9,9 @@ class Schema < ActiveRecord::Migration[5.0]
     create_table :users do |t|
       t.string :email
     end
+    create_table :user_customs do |t|
+      t.string :email
+    end
   end
 end
 

@@ -19,15 +19,17 @@ module HasEmailAuthentication::Module
     #   User.create(email: "MICHAEL@example.com")
     #   User.find_by_email("michael@EXAMPLE.com)
     #
-    def has_email_authentication
-      validates :email,
-        presence: true,
-        format: { with: /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i },
-        uniqueness: { case_sensitive: false, message: "is unavailable" }
+    def has_email_authentication(options = {})
+      validation_options = {
+        :presence   => true,
+        :format     => { :with => /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i },
+        :uniqueness => { :case_sensitive => false,
+                         :message        => "is unavailable" }
+      }
 
-      before_save do
-        self.email = email.try(:downcase)
-      end
+      validates :email, validation_options.deep_merge(options)
+
+      before_save { self.email = email.try(:downcase) }
 
       extend(FindByEmail)
     end
