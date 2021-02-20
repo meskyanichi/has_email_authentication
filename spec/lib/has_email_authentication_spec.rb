@@ -19,7 +19,7 @@ RSpec.describe HasEmailAuthentication do
     email = "michael@example.com"
     User.create!(email: email)
     expect(User.create(email: email).errors[:email])
-      .to include("has already been taken")
+      .to include("is unavailable")
   end
 
   it "should downcase the email" do

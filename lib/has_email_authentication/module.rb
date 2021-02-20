@@ -23,7 +23,7 @@ module HasEmailAuthentication::Module
       validates :email,
         presence: true,
         format: { with: /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i },
-        uniqueness: { case_sensitive: false }
+        uniqueness: { case_sensitive: false, message: "is unavailable" }
 
       before_save do
         self.email = email.try(:downcase)
